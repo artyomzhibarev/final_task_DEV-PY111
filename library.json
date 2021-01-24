@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Head First Python: A Brain-Friendly Guide",
+        "year": 2008,
+        "pages": 670,
+        "author": [
+            "Sebastian Raschka"
+        ]
+    },
+    {
+        "title": "Learning Python",
+        "year": 2012,
+        "pages": 843,
+        "author": [
+            "Eric Matthes",
+            "Mark Pilgrim"
+        ]
+    },
+    {
+        "title": "Python Machine Learning",
+        "year": 2016,
+        "pages": 748,
+        "author": [
+            "David Beazley"
+        ]
+    },
+    {
+        "title": "Python Pocket Reference",
+        "year": 2008,
+        "pages": 541,
+        "author": [
+            "Eric Matthes"
+        ]
+    },
+    {
+        "title": "Violent Python",
+        "year": 2017,
+        "pages": 762,
+        "author": [
+            "Luciano Ramalho"
+        ]
+    }
+]
