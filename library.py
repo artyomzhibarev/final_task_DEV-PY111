@@ -60,7 +60,7 @@ def search_book_by_author(list_: list, name: list):
 
 def add_author(list_: list, title: list, name: list):
     """
-    Adds the author to an existing book in the library, if not, displays an error message
+    Adds an author to an existing book in the library, if not, displays an error message
     :param list_:
     :param title:
     :param name:
@@ -74,7 +74,7 @@ def add_author(list_: list, title: list, name: list):
 
 def delete_author(list_: list, title: list, name: list):
     """
-    Adds the author to an existing book in the library, if not, displays an error message
+    Removes an author from the book's author list, if not, displays an error message
     :param list_:
     :param title:
     :param name:
@@ -100,6 +100,15 @@ def delete_book(list_: list, name: list):
 
 
 def add_book(list_: list, title: list, year: int, pages: int, author: list):
+    """
+    Adds a new book to the library
+    :param list_:
+    :param title:
+    :param year:
+    :param pages:
+    :param author:
+    :return:
+    """
     list_.append(
         {
             "title": ' '.join(title).title(),
@@ -110,4 +119,3 @@ def add_book(list_: list, title: list, year: int, pages: int, author: list):
         }
     )
     return list_
-
