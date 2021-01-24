@@ -91,12 +91,15 @@ def delete_author(list_: list, title: list, name: list):
 
 def delete_book(list_: list, name: list):
     """
-    Delete book by title
+    Removes a book from the library by title
     :param list_:
     :param name:
     :return:
     """
-    return [item for item in list_ if item['title'] != ' '.join(name).title()]
+    for item in list_:
+        if item['title'] == ' '.join(name).title():
+            list_.remove(item)
+    return list_
 
 
 def add_book(list_: list, title: list, year: int, pages: int, author: list):
