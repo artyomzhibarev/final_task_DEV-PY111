@@ -1,43 +1,29 @@
 [
     {
-        "title": "Head First Python: A Brain-Friendly Guide",
-        "year": 2008,
-        "pages": 670,
+        "title": "Python Pocket Reference",
+        "year": 2009,
+        "pages": 506,
         "author": [
-            "Sebastian Raschka"
+            "Paul Barry",
+            "Brett Slatkin"
         ]
     },
     {
-        "title": "Learning Python",
-        "year": 2012,
-        "pages": 843,
+        "title": "Python for Data Analysis",
+        "year": 2006,
+        "pages": 566,
         "author": [
-            "Eric Matthes",
-            "Mark Pilgrim"
-        ]
-    },
-    {
-        "title": "Python Machine Learning",
-        "year": 2016,
-        "pages": 748,
-        "author": [
+            "Luciano Ramalho",
+            "Zed Shaw",
             "David Beazley"
         ]
     },
     {
-        "title": "Python Pocket Reference",
-        "year": 2008,
-        "pages": 541,
+        "title": "Python in a Nutshell",
+        "year": 2016,
+        "pages": 544,
         "author": [
-            "Eric Matthes"
-        ]
-    },
-    {
-        "title": "Violent Python",
-        "year": 2017,
-        "pages": 762,
-        "author": [
-            "Luciano Ramalho"
+            "Paul Barry"
         ]
     }
 ]
