@@ -4,12 +4,16 @@ LIBRARY_FILENAME = 'library.json'
 
 
 class Library:
+    """
+    Describes Library methods
+    """
+
     class Book:
         """
         Describes book methods in the library
         """
 
-        def __init__(self, title: str, year: int, pages: int, author: str):
+        def __init__(self, title: str, year: int, pages: int, author: list):
             self.title = title
             self.year = year
             self.pages = pages
@@ -18,15 +22,22 @@ class Library:
         def __repr__(self):
             pass
 
+    @staticmethod
+    def add_book(self, list_: list, title: list, year: int, pages: int, author: list):
+        list_.append(
+            {
+                'title': ' '.join(title).title(),
+                "year": year,
+                "pages": pages,
+                "author": [' '.join(author).title(),
+                           ]
+            }
+        )
+
 
 class ReadWriteFileManager:
     def __init__(self, filename):
-        self.file = filename
-
-    @staticmethod
-    def check_filename(filename):
-        if not isinstance(filename, str):
-            raise TypeError
+        self.filename = filename
 
     @staticmethod
     def read_json_lib(filename):
@@ -51,5 +62,5 @@ class ReadWriteFileManager:
 
 
 if __name__ == '__main__':
-    list_ = ReadWriteFileManager.read_json_lib(LIBRARY_FILENAME)
-    print(list_)
+    lib = ReadWriteFileManager.read_json_lib(LIBRARY_FILENAME)
+    print(lib)
